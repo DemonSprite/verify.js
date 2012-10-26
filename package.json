@@ -1,0 +1,22 @@
+{
+  "name": "verify",
+  "version": "0.0.1",
+  "description": "```javascript",
+  "main": "./lib/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "validator": "~0.4.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://crcn:KQ3Lc6za@github.com/crcn/verify.js.git"
+  },
+  "author": "",
+  "license": "BSD"
+}
