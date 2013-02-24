@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "validator": "~0.4.13",
-    "structr": "0.2.x"
+    "structr": "0.2.x",
+    "comerr": "0.0.x"
   },
   "devDependencies": {},
   "scripts": {
