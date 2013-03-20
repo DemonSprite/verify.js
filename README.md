@@ -2,7 +2,7 @@
 
 var verify = require("verify")();
 
-verify.register("email", "Invalid email").match(/regexp/).len(6, 64);
+verify.register("email", "Invalid email").is(/regexp/).len(6, 64);
 verify.register("name", "Invalid name").len(2);
 verify.register("phoneNumber", "Invalid phone number").sanitize(/\d+\-\d+\-\d+/, function(number) {
 	return number.replace(/-/g, "");

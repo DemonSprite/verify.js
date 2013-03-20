@@ -1,6 +1,6 @@
 {
   "name": "verify",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "```javascript",
   "main": "./lib/index.js",
   "directories": {
@@ -9,11 +9,15 @@
   "dependencies": {
     "validator": "~0.4.13",
     "structr": "0.2.x",
-    "comerr": "0.0.x"
+    "comerr": "0.0.x",
+    "toarray": "0.0.x"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "1.8.x",
+    "expect.js": "0.2.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter min"
   },
   "repository": {
     "type": "git",
