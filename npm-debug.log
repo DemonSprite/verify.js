@@ -1,0 +1,166 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /Users/craig/.npm/1f1177db-tar.lock
+15 silly lockFile 6e129052-51749-0-5303033827804029-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/tmp.tgz
+16 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/tmp.tgz /Users/craig/.npm/6e129052-51749-0-5303033827804029-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 6e129052-51749-0-5303033827804029-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/tmp.tgz
+20 silly lockFile 6e129052-51749-0-5303033827804029-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/tmp.tgz
+21 verbose tar unpack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/tmp.tgz
+22 silly lockFile a4cad781-51749-0-5303033827804029-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/package
+23 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/package /Users/craig/.npm/a4cad781-51749-0-5303033827804029-package.lock
+24 silly lockFile 6e129052-51749-0-5303033827804029-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/tmp.tgz
+25 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/tmp.tgz /Users/craig/.npm/6e129052-51749-0-5303033827804029-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm modified mode [ 'package.json', 511, 493 ]
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm modified mode [ '.npmignore', 511, 493 ]
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm modified mode [ 'README.md', 511, 493 ]
+33 silly gunzTarPerm extractEntry .cupboard
+34 silly gunzTarPerm modified mode [ '.cupboard', 511, 493 ]
+35 silly gunzTarPerm extractEntry examples/ex1.js
+36 silly gunzTarPerm modified mode [ 'examples/ex1.js', 511, 493 ]
+37 silly gunzTarPerm extractEntry lib/check.js
+38 silly gunzTarPerm modified mode [ 'lib/check.js', 511, 493 ]
+39 silly gunzTarPerm extractEntry lib/defaults.js
+40 silly gunzTarPerm modified mode [ 'lib/defaults.js', 511, 493 ]
+41 silly gunzTarPerm extractEntry lib/index.js
+42 silly gunzTarPerm modified mode [ 'lib/index.js', 511, 493 ]
+43 silly gunzTarPerm extractEntry lib/matchers.js
+44 silly gunzTarPerm modified mode [ 'lib/matchers.js', 511, 493 ]
+45 silly gunzTarPerm extractEntry lib/sanitizers.js
+46 silly gunzTarPerm modified mode [ 'lib/sanitizers.js', 511, 493 ]
+47 silly gunzTarPerm extractEntry lib/siblings.js
+48 silly gunzTarPerm modified mode [ 'lib/siblings.js', 511, 493 ]
+49 silly gunzTarPerm extractEntry lib/tester.js
+50 silly gunzTarPerm modified mode [ 'lib/tester.js', 511, 493 ]
+51 silly gunzTarPerm extractEntry lib/testers.js
+52 silly gunzTarPerm modified mode [ 'lib/testers.js', 511, 493 ]
+53 silly gunzTarPerm extractEntry test/verify-test.js
+54 silly gunzTarPerm modified mode [ 'test/verify-test.js', 511, 493 ]
+55 silly lockFile a4cad781-51749-0-5303033827804029-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/package
+56 silly lockFile a4cad781-51749-0-5303033827804029-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/package
+57 silly lockFile 6e129052-51749-0-5303033827804029-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/tmp.tgz
+58 silly lockFile 6e129052-51749-0-5303033827804029-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/tmp.tgz
+59 verbose tar pack [ '/Users/craig/.npm/verify/0.1.1/package.tgz',
+59 verbose tar pack   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/package' ]
+60 verbose tarball /Users/craig/.npm/verify/0.1.1/package.tgz
+61 verbose folder /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/package
+62 silly lockFile a4cad781-51749-0-5303033827804029-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/package
+63 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/package /Users/craig/.npm/a4cad781-51749-0-5303033827804029-package.lock
+64 silly lockFile b0aabd84-aig-npm-verify-0-1-1-package-tgz tar:///Users/craig/.npm/verify/0.1.1/package.tgz
+65 verbose lock tar:///Users/craig/.npm/verify/0.1.1/package.tgz /Users/craig/.npm/b0aabd84-aig-npm-verify-0-1-1-package-tgz.lock
+66 silly lockFile a4cad781-51749-0-5303033827804029-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/package
+67 silly lockFile a4cad781-51749-0-5303033827804029-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-84512-HaT8bhzi/1393648051749-0.5303033827804029/package
+68 silly lockFile b0aabd84-aig-npm-verify-0-1-1-package-tgz tar:///Users/craig/.npm/verify/0.1.1/package.tgz
+69 silly lockFile b0aabd84-aig-npm-verify-0-1-1-package-tgz tar:///Users/craig/.npm/verify/0.1.1/package.tgz
+70 silly lockFile 2ac4eb64-s-craig-npm-verify-0-1-1-package /Users/craig/.npm/verify/0.1.1/package
+71 verbose lock /Users/craig/.npm/verify/0.1.1/package /Users/craig/.npm/2ac4eb64-s-craig-npm-verify-0-1-1-package.lock
+72 silly lockFile 2ac4eb64-s-craig-npm-verify-0-1-1-package /Users/craig/.npm/verify/0.1.1/package
+73 silly lockFile 2ac4eb64-s-craig-npm-verify-0-1-1-package /Users/craig/.npm/verify/0.1.1/package
+74 verbose tar unpack /Users/craig/.npm/verify/0.1.1/package.tgz
+75 silly lockFile 649daf55-s-craig-npm-verify-0-1-1-package tar:///Users/craig/.npm/verify/0.1.1/package
+76 verbose lock tar:///Users/craig/.npm/verify/0.1.1/package /Users/craig/.npm/649daf55-s-craig-npm-verify-0-1-1-package.lock
+77 silly lockFile b0aabd84-aig-npm-verify-0-1-1-package-tgz tar:///Users/craig/.npm/verify/0.1.1/package.tgz
+78 verbose lock tar:///Users/craig/.npm/verify/0.1.1/package.tgz /Users/craig/.npm/b0aabd84-aig-npm-verify-0-1-1-package-tgz.lock
+79 silly gunzTarPerm modes [ '755', '644' ]
+80 silly gunzTarPerm extractEntry package.json
+81 silly gunzTarPerm extractEntry .npmignore
+82 silly gunzTarPerm extractEntry README.md
+83 silly gunzTarPerm extractEntry .cupboard
+84 silly gunzTarPerm extractEntry examples/ex1.js
+85 silly gunzTarPerm extractEntry lib/check.js
+86 silly gunzTarPerm extractEntry lib/defaults.js
+87 silly gunzTarPerm extractEntry lib/index.js
+88 silly gunzTarPerm extractEntry lib/matchers.js
+89 silly gunzTarPerm extractEntry lib/sanitizers.js
+90 silly gunzTarPerm extractEntry lib/siblings.js
+91 silly gunzTarPerm extractEntry lib/tester.js
+92 silly gunzTarPerm extractEntry lib/testers.js
+93 silly gunzTarPerm extractEntry test/verify-test.js
+94 silly lockFile 649daf55-s-craig-npm-verify-0-1-1-package tar:///Users/craig/.npm/verify/0.1.1/package
+95 silly lockFile 649daf55-s-craig-npm-verify-0-1-1-package tar:///Users/craig/.npm/verify/0.1.1/package
+96 silly lockFile b0aabd84-aig-npm-verify-0-1-1-package-tgz tar:///Users/craig/.npm/verify/0.1.1/package.tgz
+97 silly lockFile b0aabd84-aig-npm-verify-0-1-1-package-tgz tar:///Users/craig/.npm/verify/0.1.1/package.tgz
+98 verbose chmod /Users/craig/.npm/verify/0.1.1/package.tgz 644
+99 verbose chown /Users/craig/.npm/verify/0.1.1/package.tgz [ 501, 20 ]
+100 silly lockFile 3a52ce78- .
+101 silly lockFile 3a52ce78- .
+102 silly publish { name: 'verify',
+102 silly publish   version: '0.1.1',
+102 silly publish   description: '```javascript',
+102 silly publish   main: './lib/index.js',
+102 silly publish   directories: { example: 'examples' },
+102 silly publish   dependencies:
+102 silly publish    { validator: '~0.4.13',
+102 silly publish      structr: '0.2.x',
+102 silly publish      comerr: '0.0.x',
+102 silly publish      toarray: '0.0.x',
+102 silly publish      sift: '0.0.x' },
+102 silly publish   devDependencies: { mocha: '1.8.x', 'expect.js': '0.2.x' },
+102 silly publish   scripts: { test: 'mocha --reporter min' },
+102 silly publish   repository:
+102 silly publish    { type: 'git',
+102 silly publish      url: 'https://crcn:KQ3Lc6za@github.com/crcn/verify.js.git' },
+102 silly publish   author: '',
+102 silly publish   license: 'BSD',
+102 silly publish   readme: '```javascript\n\nvar verify = require("verify")();\n\nverify.register("email", "Invalid email").is(/regexp/).len(6, 64);\nverify.register("name", "Invalid name").len(2);\nverify.register("phoneNumber", "Invalid phone number").sanitize(/\\d+\\-\\d+\\-\\d+/, function(number) {\n\treturn number.replace(/-/g, "");\n})\nverify.register("fullName", "Invalid full name").is("name");\n\n\n//don\'t throw an error if validation \nverify.throwsError(false);\n\nvar options = {\n\tphoneNumber: "994-433-3444",\n\temail: "email@email.com",\n\tfullName: "Wu"\n}\n\n\nif(verify.that(options).has("email", "phoneNumber", "fullName").sanitize()) {\n\tconsole.log(options.phoneNumber); //994443344\n}\n\n```\n\n\n### API\n\n#### verify(options)\n\t\n\t- `throwsError` - TRUE if the validation library throws an error if one occurs\n\n#### chain verify.register(name, message)\n\t\nregisters a new verifiable item\n\n#### chain verify.get(name)\n\nreturns a validator chain that\'s already registered\n\n### Chain API\n\n#### chain.match(fnOrRegexp)\n\ncheck against a given value\n\n#### chain.sanitize(check, fn)\n\nsanitizes the value based on the check. \n',
+102 silly publish   readmeFilename: 'README.md',
+102 silly publish   bugs: { url: 'https://github.com/crcn/verify.js/issues' },
+102 silly publish   _id: 'verify@0.1.1',
+102 silly publish   dist: { shasum: '51440b7abcba43c973c29647a3bf620839e043e5' },
+102 silly publish   _from: '.' }
+103 verbose url raw verify
+104 verbose url resolving [ 'http://registry.npmjs.org/', './verify' ]
+105 verbose url resolved http://registry.npmjs.org/verify
+106 info trying registry request attempt 1 at 20:27:31
+107 http PUT http://registry.npmjs.org/verify
+108 http 201 http://registry.npmjs.org/verify
+109 verbose url raw verify
+110 verbose url resolving [ 'http://registry.npmjs.org/', './verify' ]
+111 verbose url resolved http://registry.npmjs.org/verify
+112 info trying registry request attempt 1 at 20:27:32
+113 http GET http://registry.npmjs.org/verify
+114 http 200 http://registry.npmjs.org/verify
+115 error publish fail Cannot publish over existing version.
+115 error publish fail Update the 'version' field in package.json and try again.
+115 error publish fail
+115 error publish fail If the previous version was published in error, see:
+115 error publish fail     npm help unpublish
+115 error publish fail
+115 error publish fail To automatically increment version numbers, see:
+115 error publish fail     npm help version
+116 error System Darwin 13.0.0
+117 error command "node" "/usr/local/bin/npm" "publish"
+118 error cwd /Users/craig/Developer/Public/verify.js
+119 error node -v v0.10.21
+120 error npm -v 1.3.11
+121 error code EPUBLISHCONFLICT
+122 verbose exit [ 1, true ]
